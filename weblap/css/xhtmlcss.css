@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.szoveg{
+  text-align: center;
+}
+
+.szovegbent {
+  text-align: left;
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+.leiras {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  padding-bottom: 50px;
+  font-size: 1.2em;
+}
+
+.leiras h2 {
+  text-align: center;
+}
+
+.gomb {
+  display: block;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+body {
+  background: black;
+  color: yellow;
+}
+
+body a {
+  color: blue;
+  border: 1px solid pink;
+  border-spacing: 10px;
+  background-color: darkgray;
+}

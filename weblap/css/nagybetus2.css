@@ -1,0 +1,255 @@
+body {
+  background-color: black;
+  font-size: 2em;
+  color: yellow;
+}
+
+.topnav {
+  background-color: white;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 100%;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #cdeeff;
+  color: black;
+}
+
+.topnav img {
+  width: 10px;
+  height: 10px;
+}
+
+  #Szoveg {
+      text-align: left;
+      border-right: 1px solid black;
+      border-left: 1px solid black;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  h1 {
+    color: yellow;
+    font-family: "Times New Roman", serif;
+    font-size: 3.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+  .Cole img {
+    display: none;
+  }
+
+  .firstarticle table {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .kipozicional a {position:absolute; left:-9999px;}
+  .kipozicional a:focus {position:static; background:white}
+
+#nagybetu {
+  display: none;
+}
+
+
+@media only screen and (min-width:768px){
+  .topnav {
+    background-color: white;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+  }
+  body {
+    background-color: black;
+  }
+
+  .topnav a {
+    float: left;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: auto;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #cdeeff;
+    color: black;
+  }
+
+  .topnav img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .topnav {
+    font-size: 2em;
+  }
+
+  .tartalom {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 30px;
+    vertical-align: middle;
+      font-size: 2.3em;
+      color: yellow;
+      font-family: "Times New Roman", serif;
+  }
+
+  .tartalom #Cole {
+    display: block;
+    width: 200px;
+  }
+
+  #Szoveg {
+      text-align: left;
+      border-right: 1px solid black;
+      border-left: 1px solid black;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  h1 {
+    color: yellow;
+    font-family: "Times New Roman", serif;
+    font-size: 3.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.kipozicional a {position:absolute; left:-9999px;}
+.kipozicional a:focus {position:static; background:white}
+
+  .Cole img {
+    width: 400px;
+  }
+
+  .topnav #gyengenlato {
+    float: right;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 1024px){
+
+body {
+  background: black;
+  font-size: 1.2em;
+}
+
+.topnav {
+    background-color: white;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: auto;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #cdeeff;
+    color: black;
+  }
+
+  .topnav img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .topnav {
+    font-size: 1.9em;
+  }
+
+  .topnav #gyengenlato {
+    float: right;
+  }
+
+
+.tartalom {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 30px;
+  vertical-align: middle;
+  color: yellow;
+  font-family: "Times New Roman", serif;
+}
+
+.tartalom #Cole {
+  display: block;
+  width: 400px;
+}
+
+#Szoveg {
+    text-align: left;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+h1 {
+  color: yellow;
+  font-family: "Times New Roman", serif;
+  font-size: 3.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Cole img {
+display: block;
+width: 400px;
+}
+
+#nagybetu {
+display:none;
+}
+
+
+.kipozicional a {position:absolute; left:-9999px;}
+.kipozicional a:focus {position:static; background:white}
+}
